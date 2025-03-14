@@ -1,11 +1,11 @@
-@import url(https://fatal.github.io/Themes/Discord/Flow/Cores/Mica.css);
+@import url(https://larpcord.github.io/Themes/Discord/Flow/Cores/Mica.css);
 
 /*=============================================
 =                    Data                     =
 =============================================*/
 :root{
-	--DarkBG   : url(https://i.imgur.com/gDdgJSG.jpeg);   /* Link to background image / Default= url(https://fatal.github.io/Themes/Discord/assets/Wallpapers/dark.avif) ( url(link) ) */
-	--LightBG  : url(https://fatal.github.io/Themes/Discord/FVUI/assets/Wallpapers/light.avif);  /* Link to background image / Default= url(https://fatal.github.io/Themes/Discord/assets/Wallpapers/light.avif) ( url(link) ) */
+	--DarkBG   : url(https://i.imgur.com/gDdgJSG.jpeg);   /* Link to background image / Default= url(https://larpcord.github.io/Themes/Discord/assets/Wallpapers/dark.avif) ( url(link) ) */
+	--LightBG  : url(https://larpcord.github.io/Themes/Discord/FVUI/assets/Wallpapers/light.avif);  /* Link to background image / Default= url(https://larpcord.github.io/Themes/Discord/assets/Wallpapers/light.avif) ( url(link) ) */
 }
 :root.theme-dark{
   --bgimage: var(--DarkBG)

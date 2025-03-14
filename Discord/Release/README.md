@@ -12,17 +12,17 @@
 #### Light theme is also supported
 
 ### Default
-![Default](https://fatal.github.io/Themes/Discord/Release/assets/Default.png)
+![Default](https://larpcord.github.io/Themes/Discord/Release/assets/Default.png)
 ### WIN11 (custom image supported)
-![WIN11](https://fatal.github.io/Themes/Discord/Release/assets/CustomBackground.png)
+![WIN11](https://larpcord.github.io/Themes/Discord/Release/assets/CustomBackground.png)
 ### Mica
-![Mica](https://fatal.github.io/Themes/Discord/Release/assets/Mica.png)
+![Mica](https://larpcord.github.io/Themes/Discord/Release/assets/Mica.png)
 
 ## Addons
 ### MaterialYou
-![MaterialYou](https://fatal.github.io/Themes/Discord/Release/assets/MaterialYou.png)
+![MaterialYou](https://larpcord.github.io/Themes/Discord/Release/assets/MaterialYou.png)
 ### ModularDesign
-![ModularDesign](https://fatal.github.io/Themes/Discord/Release/assets/MD.png)
+![ModularDesign](https://larpcord.github.io/Themes/Discord/Release/assets/MD.png)
 
 ## Support
 
