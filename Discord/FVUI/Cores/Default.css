@@ -1,0 +1,36 @@
+
+/*=============================================
+=                    Data                     =
+=============================================*/
+:root{
+	--subtheme: "FVUI";
+	--warringdef: "Choose ONE of the suggested themes";
+}
+
+/*=============================================
+=                    Alert                    =
+=============================================*/
+
+.wordmarkWindows__421ed::after{
+	position: absolute;
+	left: 10px;
+
+  	color: red;
+	font-size: 16px;
+  	font-weight: 900;
+	filter: drop-shadow(0 0 10px currentColor);
+
+	content: var(--warringmica, var(--warring11));
+}
+
+
+/*=============================================
+=                    Code                     =
+=============================================*/
+
+:root{
+	--bg-overlay-3: var(--color02)!important; /* optimis */
+}
+.sidebar_c48ade { /* optimis */
+    background: var(--color02);
+}

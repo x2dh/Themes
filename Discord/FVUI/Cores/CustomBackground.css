@@ -1,0 +1,105 @@
+/**
+* @name !11
+* @author ٴFeoreVٴ#3377
+* @description 11 
+* @version  DEV
+* @authorId 489785940546551831
+*/
+
+/*=============================================
+=                    Data                     =
+=============================================*/
+:root{
+	--DarkBG   : url(https://feorev.github.io/Themes/Discord/FVUI/assets/Wallpapers/dark.avif);   /* Link to background image / Default= url(https://feorev.github.io/Themes/Discord/assets/Wallpapers/dark.avif) ( url(link) ) */
+	--LightBG  : url(https://feorev.github.io/Themes/Discord/FVUI/assets/Wallpapers/light.avif);  /* Link to background image / Default= url(https://feorev.github.io/Themes/Discord/assets/Wallpapers/light.avif) ( url(link) ) */
+}
+:root.theme-dark{
+  --bgimage: var(--DarkBG)
+}
+:root.theme-light{
+  --bgimage: var(--LightBG)
+}
+
+:root{
+  --image: var(--bgimage);
+	--OpacityBG: 60%;
+	--BlurBG: 0px;
+}
+:root{
+	--subtheme: "Fatal";
+	--warring11:  "Choose ONE of the suggested themes";
+}
+
+.wordmarkWindows__421ed::after{
+	position: absolute;
+	left: 10px;
+
+  color: red;
+	font-size: 16px;
+  font-weight: 900;
+	filter: drop-shadow(0 0 10px currentColor);
+
+	content: var(--warringmica, var(--warringdef));
+}
+
+
+
+:root{
+	--DisableBlur: calc(1 - var(--DisableOpacity));
+	--tblur4: blur(calc(var(--DisableBlur) * 4px))!important;
+	--tblur8: blur(calc(var(--DisableBlur) * 8px))!important;
+	--tblur16: blur(calc(var(--DisableBlur) * 16px))!important;
+}
+
+/*=============================================
+=                    Code                     =
+=============================================*/
+
+:root [id^="popout_"]{
+	--background-secondary: var(--opacity01a)!important; /* popups*/
+}
+
+.content_f75fb0.container_c791b2>.mainTableContainer__09a38{ /* memberlist */
+  backdrop-filter: blur(8px);
+}
+
+.sidebar_c48ade{
+  background: none!important;
+}
+.shopScroll__6db1d,
+.shopScroll__6db1d>.pageWrapper__6db1d  {
+  background: none!important;
+}
+
+.title_f75fb0,
+.channelTextArea_f75fb0, 
+.wrapper__44df5{
+  background: var(--full02)!important;
+}
+
+
+.app_a3002d::before{
+  background-size: cover!important;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  opacity:var(--OpacityBG);
+  filter:blur(var(--BlurBG))
+}
+.app_a3002d::before{
+  background-image: var(--image);
+}
+
+
+
+.mentioned__5126c{
+  backdrop-filter: var(--blur4);
+}
+
+.callContainer_cb9592{ /*screen demo*/
+  backdrop-filter: var(--blur8);
+}
+.container__2637a{
+  background: none!important;
+}

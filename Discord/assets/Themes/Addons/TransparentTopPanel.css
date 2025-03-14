@@ -1,0 +1,51 @@
+
+.title_d4ba1a.container__26baa.themed_b152d4 {
+    position: absolute;
+    background: var(--full02)!important;
+	backdrop-filter: var(--blur8);
+}
+
+
+.sidebar_e031be .searchBar__621ec,
+.sidebar_e031be .container_f41675.clickable__1383f {
+	position: absolute;
+    background: var(--full02);
+    width: 100%;
+    z-index: 10;
+	backdrop-filter: var(--blur8);
+}
+
+.sidebar_e031be .scroller__89969.thin_b1c063.scrollerBase_f742b2,
+.chatContainer__23434 .list__5ced9.auto_a3c0bd.scrollerBase_f742b2,
+.base_c0676e .customTheme_e72fe3.scrollerBase_f742b2>.content__690c5,
+.searchResultsWrap__2e184{
+    padding-top: 3rem;
+}
+
+
+.searchBar__621ec > button.searchBarComponent__8f95f {
+    width: 90%;
+}
+
+.container__8567b:has(>.channelNotice__36ec1){margin-top: 3rem}
+.container__8567b:has(>.channelNotice__36ec1){
+    background: var(--full02);
+	position: absolute;
+	z-index: 10;
+	width: 99%;
+	left:1%;
+	margin: 0;
+	padding: 0;
+	top:3%;
+	backdrop-filter: var(--blur8);
+}
+.sidebar_e031be:has(.container__8567b>.channelNotice__36ec1) .scroller__1f498.thin_b1c063.scrollerBase_f742b2.fade_ba0fa0.customTheme_e72fe3{
+    padding-top: 12rem;
+}
+
+
+.chat__52833 aside.profilePanel_e2cafe .none__7a473.scrollerBase_f742b2,.chat__52833 .membersWrap__5ca6b>.members__573eb.thin_b1c063.scrollerBase_f742b2.fade_ba0fa0{padding-top:3.1rem;}
+
+.topicsPillContainer__2c107.barBase__8839d.containerMarginTop_ad9569{ /* NEW DISCORD AI SUMMARIES*/ /*
+	margin-top: 3rem;
+}

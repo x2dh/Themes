@@ -1,0 +1,125 @@
+
+/*=============================================
+=                 ModularDesign               =
+=============================================*/
+body #app-mount .guilds_c48ade{
+	height: var(--guilds-md-hsl-temp-height, calc(100vh - var(--outlineMG) * 2) - 18px /*titlebar*/)!important;
+	margin: var(--guilds-md-hsl-temp-margin, calc(var(--outlineMG)) 0 calc(var(--outlineMG)) var(--outlineMG))!important;
+	left  : var(--guilds-md-hsl-temp-left)!important;
+}
+/*----------  Root  ----------*/
+
+:root{ /* MainModules */
+	--outline: 3px;
+	--outlineCLR: var(--color3);
+	--outlineBR: 16px;
+	--outlineMG: 2rem;
+	--outlineBS: 15px;
+
+	--outlineBG: var(--outlineBGclr), var(--outlineBGalpha);
+	--outlineBGclr: unset;
+	--outlineBGalpha: 1;
+
+	--outlineBLUR: 0;
+
+	--outlineCLRopacity:1;
+}
+
+:root{ /* Internal values */
+  --bottomMG: var(--outlineMG)!important;
+
+  --HSL_top_enabled_MD:0;
+  --HSL_bottom_enabled_MD:0;
+  
+  --MD_enabled: 1!important;
+
+  --HSL_10px:10px;
+}
+:root{ /* Internal values */
+	--outline_e: var(--outline);
+	--outlineCLR_e: var(--outlineCLR);
+	--outlineBR_e: var(--outlineBR);
+	--outlineMG_e: var(--outlineMG);
+	--outlineBS_e: var(--outlineBS);
+	--outlineBG_e: var(--outlineBG);
+	--outlineBLUR_e: var(--outlineBLUR);
+}
+:root{
+	--outlineMGFL: calc(var(--outlineMG) + 10px)!important; /* friendlist */
+}
+/*----------  General - Main  ----------*/
+
+#app-mount .container__2637a{
+	background: transparent; /* !!! */
+}
+
+#app-mount .guilds_c48ade, /* guilds */ 
+#app-mount .sidebar_c48ade, /* list */
+#app-mount .container__133bf, /* friendlist */
+#app-mount .chat_f75fb0, /* chat */
+#app-mount .applicationStore_f07d62, /* applicationStore */
+#app-mount .shop__6db1d, /* shop */
+#app-mount .layer__960e4 > .standardSidebarView__23e6b>:is(.sidebarRegion__23e6b,.contentRegion__23e6b) /* settings */
+{
+	color: var(--outlineCLR_MUI, rgb(var(--outlineCLR)));
+	outline: var(--outline) solid currentcolor;
+	border-radius: var(--outlineBR)!important;
+	margin: calc(var(--outlineMG)) 0 calc(var(--outlineMG)) var(--outlineMG);
+	box-shadow: 0 0 var(--outlineBS) currentcolor;
+	background: rgb(var(--outlineBG))!important;
+	position: relative;
+
+	padding: 3px;
+	box-sizing: border-box;
+}
+
+
+
+
+:is(
+#app-mount .guilds_c48ade, /* guilds */ 
+#app-mount .sidebar_c48ade, /* list */
+#app-mount .container__133bf, /* friendlist */
+#app-mount .chat_f75fb0, /* chat */
+#app-mount .applicationStore_f07d62, /* applicationStore */
+#app-mount .shop__6db1d, /* shop */
+#app-mount .layer__960e4 > .standardSidebarView__23e6b>:is(.sidebarRegion__23e6b,.contentRegion__23e6b) /* settings */
+)::before
+{
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+
+	border-radius: var(--outlineBR)!important;
+	
+	backdrop-filter: var(--outlineBLUR);
+}
+
+#app-mount .chat_f75fb0,
+#app-mount .applicationStore_f07d62,
+#app-mount .container__133bf,
+#app-mount .contentRegion__23e6b,
+#app-mount .shop__6db1d{
+	margin-right: var(--outlineMG)!important
+}
+
+.base_c48ade{ /* HSL fix */
+	margin: calc(var(--outlineMG) * var(--HSL_top_enabled_MD) * 3 ) 0 calc(var(--outlineMG) * var(--HSL_bottom_enabled_MD) * 3 ) 0!important;
+}
+
+.shop__6db1d{
+	height: calc(100% - var(--outlineMG) * 2);
+}
+.shopScroll__6db1d {
+	max-height: calc(100% - var(--outlineMG) * 2);
+}
+
+/*----------  General - Additional  ----------*/
+
+/*=====  End of Section ModularDesign  ======*/
+
+
+
+ 
+
