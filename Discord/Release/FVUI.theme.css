@@ -1,22 +1,22 @@
 /**
 * @name FVUI
-* @author feorev
+* @author fatal
 * @description Blur is the New Black
 * @version 2.0.0
 * @authorId 489785940546551831
 * @invite baEMQkgswT
-* @source https://github.com/FeoreV/Themes/tree/main/Discord/FVUI
+* @source https://github.com/fatal/Themes/tree/main/Discord/FVUI
 */
 /* ! DO NOT TOUCH ! */
-@import url(https://feorev.github.io/Themes/Discord/FVUI/Cores/preload.css);
-@import url(https://feorev.github.io/Themes/Discord/FVUI/assets/Versions/v2.css);
+@import url(https://fatal.github.io/Themes/Discord/FVUI/Cores/preload.css);
+@import url(https://fatal.github.io/Themes/Discord/FVUI/assets/Versions/v2.css);
 
 /*=============================================
 =                     Info                    =
 ==============================================*
 	DiscordServer: https://discord.com/invite/baEMQkgswT
-	DM - feorev
-	Site - https://feorev.github.io/
+	DM - fatal
+	Site - https://fatal.github.io/
 	ThemeEditor - https://bdeditor.dev/theme/FVUI
 
 	Due to the inability to update the theme file frequently, many new additions to the theme will be posted on the discord server.
@@ -55,19 +55,19 @@
 
 /*----------  Default  ----------*/
 	/* Default */
-@import url(https://feorev.github.io/Themes/Discord/FVUI/assets/SubThemes/Default.css);
+@import url(https://fatal.github.io/Themes/Discord/FVUI/assets/SubThemes/Default.css);
 	/* Lite */
-/* @import url(https://feorev.github.io/Themes/Discord/FVUI/assets/SubThemes/Default_lite.css); */
+/* @import url(https://fatal.github.io/Themes/Discord/FVUI/assets/SubThemes/Default_lite.css); */
 
 /*----------  CustomBackground  ----------*/
 	/* WIN11 */ 
-/* @import url(https://feorev.github.io/Themes/Discord/FVUI/assets/SubThemes/CustomBackground.css); */
+/* @import url(https://fatal.github.io/Themes/Discord/FVUI/assets/SubThemes/CustomBackground.css); */
 	/* Lite11 */
-/* @import url(https://feorev.github.io/Themes/Discord/FVUI/assets/SubThemes/CustomBackground_lite.css); */
+/* @import url(https://fatal.github.io/Themes/Discord/FVUI/assets/SubThemes/CustomBackground_lite.css); */
 
 /*----------  Other  ----------*/
 	/*MICA (Required "Mica For Everyone" and enabling transparency (Settings=>BD=>Settings=>Window preferences=>Enable transparency)*/
-/* @import url(https://feorev.github.io/Themes/Discord/FVUI/assets/SubThemes/Mica.css); */
+/* @import url(https://fatal.github.io/Themes/Discord/FVUI/assets/SubThemes/Mica.css); */
 
 
 
@@ -76,29 +76,29 @@
 =============================================*/
 
 	/* Events (Any events and decorations for the holidays. For example, snow and New Year's attributes for the new year.) */
-@import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/Events/Events.css);
+@import url(https://fatal.github.io/Themes/Discord/FVUI/Addons/Events/Events.css);
 
 	/* ServerRings */
-@import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/ServerRings.css); 
+@import url(https://fatal.github.io/Themes/Discord/FVUI/Addons/ServerRings.css); 
 
 	/* RadialStatus */
-@import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/RadialStatus.css);
+@import url(https://fatal.github.io/Themes/Discord/FVUI/Addons/RadialStatus.css);
 
 	/* MaterialYou (The theme color scheme adjusts to the accent color) */
-/* @import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/MaterialYou.css); */
+/* @import url(https://fatal.github.io/Themes/Discord/FVUI/Addons/MaterialYou.css); */
 
 	/* ModularDesign (Adds outline to main sections) */
-/* @import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/ModularDesign.css); */
+/* @import url(https://fatal.github.io/Themes/Discord/FVUI/Addons/ModularDesign.css); */
 
 	/* TopUserPanel (Moves the userpanel to the top corner) */
-/* @import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/TopUserPanel.css); */
+/* @import url(https://fatal.github.io/Themes/Discord/FVUI/Addons/TopUserPanel.css); */
 
 	/* HorizontalServerList (Moves serverlist to the top or bottom corner. For FVUI, it is recommended to use this version of HSL, and not the official one.) */
-/* @import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/HSL/HSL_top.css); */
-/* @import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/HSL/HSL_bottom.css); */
+/* @import url(https://fatal.github.io/Themes/Discord/FVUI/Addons/HSL/HSL_top.css); */
+/* @import url(https://fatal.github.io/Themes/Discord/FVUI/Addons/HSL/HSL_bottom.css); */
 
 	/* TitleIsland */
-/* @import url(https://feorev.github.io/Themes/Discord/FVUI/Addons/TitleIsland.css); */
+/* @import url(https://fatal.github.io/Themes/Discord/FVUI/Addons/TitleIsland.css); */
 
 
 
@@ -110,9 +110,9 @@
 
 	/*----------  General  ----------*/
 :root{
-	--cursor  : url('https://feorev.github.io/Themes/Discord/FVUI/assets/Cursor.cur');         /* Link to cursor / unset - to set standard */
+	--cursor  : url('https://fatal.github.io/Themes/Discord/FVUI/assets/Cursor.cur');         /* Link to cursor / unset - to set standard */
 	--font    : "Comfortaa";                                                                   /* The font must be pre-installed or imported */
-	--homeicon: url("https://feorev.github.io/Themes/Discord/FVUI/assets/HomeIcon/Icon.png");  /* Link to image */
+	--homeicon: url("https://fatal.github.io/Themes/Discord/FVUI/assets/HomeIcon/Icon.png");  /* Link to image */
 }
 
 :root{
@@ -135,8 +135,8 @@
 
 	/*----------  CustomBackground  ----------*/
 :root{
-	--DarkBG   : url(https://feorev.github.io/Themes/Discord/FVUI/assets/Wallpapers/dark.avif);   /* Link to background image / Default= url(https://feorev.github.io/Themes/Discord/assets/Wallpapers/dark.avif) ( url(link) ) */
-	--LightBG  : url(https://feorev.github.io/Themes/Discord/FVUI/assets/Wallpapers/light.avif);  /* Link to background image / Default= url(https://feorev.github.io/Themes/Discord/assets/Wallpapers/light.avif) ( url(link) ) */
+	--DarkBG   : url(https://fatal.github.io/Themes/Discord/FVUI/assets/Wallpapers/dark.avif);   /* Link to background image / Default= url(https://fatal.github.io/Themes/Discord/assets/Wallpapers/dark.avif) ( url(link) ) */
+	--LightBG  : url(https://fatal.github.io/Themes/Discord/FVUI/assets/Wallpapers/light.avif);  /* Link to background image / Default= url(https://fatal.github.io/Themes/Discord/assets/Wallpapers/light.avif) ( url(link) ) */
 	--OpacityBG: 60%;                                                                             /* Background image transparency / Default=100% (0%-100%) */
 	--BlurBG   : 0px;                                                                             /* Background image blur / Default=0px (any value in px) */
 }

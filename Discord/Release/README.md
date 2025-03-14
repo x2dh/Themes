@@ -12,18 +12,18 @@
 #### Light theme is also supported
 
 ### Default
-![Default](https://feorev.github.io/Themes/Discord/Release/assets/Default.png)
+![Default](https://fatal.github.io/Themes/Discord/Release/assets/Default.png)
 ### WIN11 (custom image supported)
-![WIN11](https://feorev.github.io/Themes/Discord/Release/assets/CustomBackground.png)
+![WIN11](https://fatal.github.io/Themes/Discord/Release/assets/CustomBackground.png)
 ### Mica
-![Mica](https://feorev.github.io/Themes/Discord/Release/assets/Mica.png)
+![Mica](https://fatal.github.io/Themes/Discord/Release/assets/Mica.png)
 
 ## Addons
 ### MaterialYou
-![MaterialYou](https://feorev.github.io/Themes/Discord/Release/assets/MaterialYou.png)
+![MaterialYou](https://fatal.github.io/Themes/Discord/Release/assets/MaterialYou.png)
 ### ModularDesign
-![ModularDesign](https://feorev.github.io/Themes/Discord/Release/assets/MD.png)
+![ModularDesign](https://fatal.github.io/Themes/Discord/Release/assets/MD.png)
 
 ## Support
 
-To suggest an innovation or report a bug, contact the [Discord Server](https://discord.gg/baEMQkgswT)  or DM (feorev)
+To suggest an innovation or report a bug, contact the [Discord Server](https://discord.gg/baEMQkgswT)  or DM (fatal)
