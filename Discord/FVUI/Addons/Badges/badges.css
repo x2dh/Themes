@@ -15,7 +15,8 @@
 	.avatar__44b0c[src*="950112422864232449"],
 	.avatar__44b0c[src*="486130080263700480"],
 	.avatar__44b0c[src*="1121423889914937406"],
-	.avatar__44b0c[src*="615359270367526912"]
+	.avatar__44b0c[src*="615359270367526912"],
+	.avatar_44b0c[src=*"1243274323402293259"]
 )
 .container__8061a::before{
 	content:"";
@@ -43,8 +44,8 @@
 	.avatar__44b0c[src*="992777461857259610"],
 	.avatar__44b0c[src*="950112422864232449"],
 	.avatar__44b0c[src*="486130080263700480"],
-	.avatar__44b0c[src*="1121423889914937406"],
-	.avatar__44b0c[src*="615359270367526912"]
+	.avatar__44b0c[src*="615359270367526912"],
+	.avatar_44b0c[src=*"1243274323402293259"]
 )
 .container__8061a::after{
 	position: fixed;
@@ -151,6 +152,11 @@
 .userProfileInner_c69a7b:has(.avatar__44b0c[src*="950112422864232449"]) .container__8061a:hover::after{ 
 	content:"Verified CCBot Developer";
 }
+
+.userProfileInner_c69a7b:has(.avatar__44b0c[src*="1243274323402293259"]) .container__8061a:hover::after{ 
+	content:"six <3";
+}
+
 
 /*---------- rebqi 486130080263700480  ----------*/
 .userProfileInner_c69a7b:has(.avatar__44b0c[src*="486130080263700480"]) .container__8061a::before{
