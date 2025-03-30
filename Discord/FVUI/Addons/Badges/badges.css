@@ -85,7 +85,11 @@
 
 
 
+<<<<<<< HEAD
 /*----------  fatal 489785940546551831  ----------*/
+=======
+/*----------  six 489785940546551831  ----------*/
+>>>>>>> ea1895f (Initial Commit)
 .userProfileInner_c69a7b:has(.avatar__44b0c[src*="489785940546551831"]) .container__8061a::before{
 	--badges_img: url(https://larpcord.github.io/Themes/Discord/assets/HomeIcon/IconSelected.png);
 }

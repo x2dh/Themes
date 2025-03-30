@@ -26,4 +26,8 @@
 
 ## Support
 
+<<<<<<< HEAD
 To suggest an innovation or report a bug, contact the [Discord Server](https://discord.gg/baEMQkgswT)  or DM (fatal)
+=======
+To suggest an innovation or report a bug, contact the [Discord Server](https://discord.gg/baEMQkgswT)  or DM (six)
+>>>>>>> ea1895f (Initial Commit)
